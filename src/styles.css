@@ -7,6 +7,6 @@
 
 body{
     font-family: 'Oxygen', sans-serif;
-    background-image: url('assets/image/woodentable2.jpg'); 
+    background-image: url('./assets/image/woodentable2.jpg'); 
     max-height: 100vh;
 }
