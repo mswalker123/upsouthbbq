@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+/* html{
+    height: 100vh;
+    background-image: url('assets/image/woodentable.jpg'); 
+    background: 100vh;
+} */
+
+body{
+    font-family: 'Oxygen', sans-serif;
+    background-image: url('assets/image/woodentable2.jpg'); 
+    max-height: 100vh;
+}

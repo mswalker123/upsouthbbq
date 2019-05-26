@@ -1,21 +1,76 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+
+
+<scroll-component></scroll-component>
+
+<div class='navDiv'>
+<div class='navBar'>
+    <div class='logoBox'>
+        <img class=" logo" src="assets/image/LOGO.jpg"/>
+        </div>
+    
+  <nav class='nav' id='topNav'>
+    
+    <li><a href='#aboutLink'>Our Story</a></li>
+    <li><a href='#reviewLink'>Review</a></li>
+    <li><a href ='https://www.amazon.com/dp/B07KPP4SMR?ref=myi_title_dp&fbclid=IwAR2Rf8MhYM6L7IqfBZFPIswr6Fr9MExnZw5oKxttsXmAq0EXiGAxeIYLK_U'>Purchase</a></li> 
+     <!-- <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a></li>  -->
+          <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+
+</nav>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+</div> 
+<!-- 
+<nav class="navDiv navBar">
+        <div class='logoBox'>
+                <img class=" logo" src="assets/image/LOGO.jpg"/>
+                </div>
+      
+        <button class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+      
+      
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Item 1</a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" href="#">Item 2</a>
+            </li>
+          </ul>
+        </div> 
+      </nav> -->
+
+<home></home>
+<story class='story'></story> 
+<reviews class='review1'></reviews>
+
+<footer class='footerBottom'>
+    <div class='footGroup'>
+    <div class='foot'>
+        <p>
+        UP SOUTH BBQ, L.L.C.
+        P.O. Box 1182
+        Walled Lake, MI 48390
+        248 943 0875
+        </p>  
+        <div class='social-media'>
+                <img class='facebook icon' src="assets/image/facebook icon.png"/>
+                <img class='twitter icon' src="assets/image/twitter icon.png"/>
+                <img class='instagram icon' src="assets/image/instagram icon.png"/>
+              </div>
+    </div>
+
+
+
+    </div>
+
+</footer>
 
 <router-outlet></router-outlet>

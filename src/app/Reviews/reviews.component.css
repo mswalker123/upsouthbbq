@@ -1,0 +1,111 @@
+.reviewHeading {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 550px;
+    background: linear-gradient(90deg, rgba(121,9,12,1) 0%, rgba(36,0,0,1) 100%);
+    border-top: 2px solid white;
+    width: 80%;
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.reviewsBlock{
+    display: flex;
+    /* align-items: center; */
+    justify-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+
+.reviews{
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 314px;
+    height: auto;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    margin-left: 5px;
+    /* margin-bottom: 30px; */
+    justify-content: center;
+    background-color: white;
+    padding: 17px;
+    border-radius: 20px;
+    border: 3px solid;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-items: space-between;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.reviews p{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.fas {
+    color: maroon;
+    width: 20%;
+}
+
+.reviewName{
+    /* margin-left: 10px; */
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.reviewTitle{
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.reviewDate{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.reviewReview{
+    text-align: center;
+    margin-bottom: 0px;
+}
+@media all and (min-width: 769px) and (max-width: 992px)  {
+    .reviewHeading{
+        margin-top: 478px;
+        width: 100%;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 768px){
+
+ .reviewHeading{
+    margin-top: 663px;
+    width: 100%;
+}
+
+.review{
+    margin-left: 30px;
+}
+.reviewsBlock{
+    width: 271px;
+    justify-content: center;
+    justify-items: center;
+
+}
+}

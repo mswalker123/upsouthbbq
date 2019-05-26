@@ -1,0 +1,15 @@
+<div class='reviewHeading'id='reviewLink'>
+    <div class='review'>
+      <p>Reviews</p>  
+    </div>
+</div>
+
+<div class='reviewsBlock'>
+    <div class='reviews' *ngFor='let review of random(); let i = index'>
+    <div class=peppers> <i *ngFor="let pepper of showPepper(review.ratings)" class="fas fa-pepper-hot"></i></div>   
+    <p class= 'reviewTitle' >{{review.title}}</p>
+    <p class= 'reviewName' >{{review.name}}</p><br>
+<p class= 'reviewDate' >{{review.date}}</p>
+<p class= 'reviewReview' >{{review.review}}</p>
+</div>
+</div>
