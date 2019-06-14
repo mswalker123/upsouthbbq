@@ -191,7 +191,7 @@
     z-index: 2;
 }
   }
-  @media (min-width: 320px) and (max-width: 768px){
+  @media (min-width: 320px) and (max-width: 420px){
     .meet{
         margin-top: 19px;
         width: 100%;
