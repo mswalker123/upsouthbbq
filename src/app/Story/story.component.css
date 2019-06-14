@@ -118,7 +118,7 @@
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-  @media screen and (max-width:800px){
+  @media screen and (min-width: 768px) and (max-width:800px){
     .saucespill{
         height: 435px;
         display: flex;
