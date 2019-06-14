@@ -289,7 +289,7 @@
    margin-top: 132px;
    margin-left: 0px;
    max-width: 100%;
-   left: 74px;
+   /* left: 74px; */
   }
   .largeImg{
      width: 100%;
@@ -324,14 +324,16 @@
    background-image: url('/assets/image/pepper red.png');
    background-size: 96px;
    width: 120px;
-   height: 96px;
+   height: 118px;
+   background-size: cover;
 }
 
 #rollImage1:hover {
    background-image: url('/assets/image/pepper gray.png');
    background-size: 96px;
    width: 120px;
-   height: 96px;
+   height: 118px;
+   background-size: cover;
 }
  
 #rollImage1:hover p{
@@ -345,14 +347,16 @@
    background-image: url('/assets/image/fork red.png');
    background-size: 98px;
    width: 119px;
-   height: 96px;
+   height: 118px;
+   background-size: cover;
 }
 
 #rollImage2:hover {
    background-image: url('/assets/image/fork gray.png');
    background-size: 98px;
    width: 119px;
-   height: 96px;
+   height: 118px;
+   background-size: cover;
 }
 #rollImage2:hover p{
    visibility: visible;
@@ -360,20 +364,23 @@
    text-align: center;
    left: 136px;
    font-size: 11px;
+
 }
 
 #rollImage3 {
    background-image: url('/assets/image/grill red.png');
    background-size: 96px;
    width: 120px;
-   height: 96px;
+   height: 118px;
+   background-size: cover;
 }
 
 #rollImage3:hover {
    background-image: url('/assets/image/grill gray.png');
    background-size: 96px;
    width: 120px;
-   height: 96px;
+   height: 118px;
+   background-size: cover;
 }
 #rollImage3:hover p{
    visibility: visible;
@@ -382,5 +389,6 @@
    text-align: center;
    font-size: 11px;
 }
+
 }
 

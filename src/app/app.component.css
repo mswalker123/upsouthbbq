@@ -1,3 +1,6 @@
+/* .Navbar__Link-toggle {
+    display: none;
+  } */
 
 .navDiv{
     display: flex;
@@ -130,12 +133,20 @@ footer{
     display: flex;
     height: 30px;
 }
-scroll-component{
+/* scroll-component{
     z-index: 4;
-}
+} */
 
 
 @media all and (min-width: 769px) and (max-width: 992px) {
+    .Navbar__Link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+        z-index: 4;
+      }
+
     .navBar{
         width:100%;
         height: 118px;
@@ -145,11 +156,19 @@ scroll-component{
     .footGroup{
         width: 100%;
     }
-    scroll-component{
+    /* scroll-component{
         visibility: hidden;
-    }
+    } */
   }
   @media (min-width: 320px) and (max-width: 768px){
+   .Navbar__Link-toggle {
+  align-self: flex-end;
+  display: initial;
+  position: absolute;
+  cursor: pointer;
+  z-index: 4;
+  justify-content: flex-end;
+}
     .navBar{
         width:100%;
         height: 118px;
@@ -162,9 +181,9 @@ scroll-component{
     .footGroup{
         width: 100%;
     }
-    scroll-component{
+    /* scroll-component{
         visibility: hidden;
-    }
+    } */
     .logo{
         height: 133px;
         margin-left: 0px;
