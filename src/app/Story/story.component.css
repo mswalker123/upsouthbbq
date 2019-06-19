@@ -1,3 +1,4 @@
+
 .aboutSection{
     display: flex;
     justify-content: center;
@@ -164,21 +165,22 @@
         width: 80%;
   }
   .about{
- 
     margin-top:-11px;
     width: 100%;
-
+    flex-direction: column;
   }
 
   .aboutText{
     height: 380px;
     width: 100%;
-    margin-top: 134px;
+    margin-top: 134px;   
 }
 .carlFeeImage{
-
     width:100%;
 
+  }
+  .bottle{
+      display:none;
   }
   .sauceBottle{
     margin-top: 135px;
@@ -206,14 +208,14 @@
     height: 0px;
     /* max-width: 400px; */
     margin-top: 630px;
+  margin-left: 20px; 
     position: absolute;
-    justify-content: center;
-    justify-items: center;
-    margin-left: 57px;
   }
   .about{
     margin-top:-11px;
     width: 100%;
+    align-items: center;
+    flex-direction: column;
   }
 
   .teamPic{
